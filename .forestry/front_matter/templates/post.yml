@@ -1,0 +1,33 @@
+---
+label: Post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: excerpt
+  label: excerpt
+- type: file
+  name: coverImage
+  label: coverImage
+- type: datetime
+  name: date
+  label: date
+- type: field_group
+  name: author
+  label: author
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: file
+    name: picture
+    label: picture
+- type: field_group
+  name: ogImage
+  label: ogImage
+  fields:
+  - type: file
+    name: url
+    label: url
